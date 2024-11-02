@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="alltestcase">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestCase.inventoryTestCase"/>
+      <class name="TestCase.CartTestcase"/>
+      <class name="TestCase.loginTestcase"/>
+      <class name="TestCase.CheckoutPageTestcase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- alltestcase -->

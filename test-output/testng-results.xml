@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-27T23:51:26 IST" name="Group_Suite" finished-at="2024-10-27T23:52:40 IST" duration-ms="74326">
+    <groups>
+      <group name="alpha">
+        <method signature="inventoryTestCase.verifytwitter()[pri:0, instance:TestCase.inventoryTestCase@662706a7]" name="verifytwitter" class="TestCase.inventoryTestCase"/>
+        <method signature="loginTestcase.testtitle()[pri:0, instance:TestCase.loginTestcase@7d898981]" name="testtitle" class="TestCase.loginTestcase"/>
+        <method signature="CartTestcase.verifytitle()[pri:3, instance:TestCase.CartTestcase@282cb7c7]" name="verifytitle" class="TestCase.CartTestcase"/>
+      </group> <!-- alpha -->
+      <group name="Gama">
+        <method signature="inventoryTestCase.verifytitle()[pri:0, instance:TestCase.inventoryTestCase@662706a7]" name="verifytitle" class="TestCase.inventoryTestCase"/>
+        <method signature="loginTestcase.logintoapplicatio()[pri:0, instance:TestCase.loginTestcase@7d898981]" name="logintoapplicatio" class="TestCase.loginTestcase"/>
+        <method signature="CartTestcase.verifychchbtn()[pri:2, instance:TestCase.CartTestcase@282cb7c7]" name="verifychchbtn" class="TestCase.CartTestcase"/>
+      </group> <!-- Gama -->
+    </groups>
+    <test started-at="2024-10-27T23:51:26 IST" name="Group_Test" finished-at="2024-10-27T23:52:40 IST" duration-ms="74326">
+      <class name="TestCase.loginTestcase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:51:48 IST" name="setup" finished-at="2024-10-27T23:51:53 IST" duration-ms="5273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintoapplicatio()[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:51:53 IST" name="logintoapplicatio" finished-at="2024-10-27T23:51:54 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapplicatio -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:51:54 IST" name="closebrowser" finished-at="2024-10-27T23:51:55 IST" duration-ms="1231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintoapplicatio status=SUCCESS method=loginTestcase.logintoapplicatio()[pri:0, instance:TestCase.loginTestcase@7d898981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:51:55 IST" name="setup" finished-at="2024-10-27T23:51:58 IST" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testtitle()[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:51:58 IST" name="testtitle" finished-at="2024-10-27T23:51:59 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtitle -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:51:59 IST" name="closebrowser" finished-at="2024-10-27T23:51:59 IST" duration-ms="383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testtitle status=SUCCESS method=loginTestcase.testtitle()[pri:0, instance:TestCase.loginTestcase@7d898981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:51:59 IST" name="setup" finished-at="2024-10-27T23:52:03 IST" duration-ms="3184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:03 IST" name="verifymullogin" data-provider="testdata" finished-at="2024-10-27T23:52:04 IST" duration-ms="1616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymullogin -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:04 IST" name="closebrowser" finished-at="2024-10-27T23:52:05 IST" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymullogin status=SUCCESS method=loginTestcase.verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:05 IST" name="setup" finished-at="2024-10-27T23:52:10 IST" duration-ms="5023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:10 IST" name="verifymullogin" data-provider="testdata" finished-at="2024-10-27T23:52:10 IST" duration-ms="500" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at TestCase.loginTestcase.verifymullogin(loginTestcase.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymullogin -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:10 IST" name="closebrowser" finished-at="2024-10-27T23:52:11 IST" duration-ms="505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymullogin status=FAILURE method=loginTestcase.verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:11 IST" name="setup" finished-at="2024-10-27T23:52:16 IST" duration-ms="5557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:16 IST" name="verifymullogin" data-provider="testdata" finished-at="2024-10-27T23:52:17 IST" duration-ms="531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymullogin -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:17 IST" name="closebrowser" finished-at="2024-10-27T23:52:17 IST" duration-ms="465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymullogin status=SUCCESS method=loginTestcase.verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:17 IST" name="setup" finished-at="2024-10-27T23:52:22 IST" duration-ms="4865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:22 IST" name="verifymullogin" data-provider="testdata" finished-at="2024-10-27T23:52:28 IST" duration-ms="5486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymullogin -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:28 IST" name="closebrowser" finished-at="2024-10-27T23:52:28 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymullogin status=SUCCESS method=loginTestcase.verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:28 IST" name="setup" finished-at="2024-10-27T23:52:34 IST" duration-ms="5926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:34 IST" name="verifymullogin" data-provider="testdata" finished-at="2024-10-27T23:52:34 IST" duration-ms="392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymullogin -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:34 IST" name="closebrowser" finished-at="2024-10-27T23:52:34 IST" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymullogin status=SUCCESS method=loginTestcase.verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:34 IST" name="setup" finished-at="2024-10-27T23:52:39 IST" duration-ms="4725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:39 IST" name="verifymullogin" data-provider="testdata" finished-at="2024-10-27T23:52:40 IST" duration-ms="469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymullogin -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:TestCase.loginTestcase@7d898981]" started-at="2024-10-27T23:52:40 IST" name="closebrowser" finished-at="2024-10-27T23:52:40 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymullogin status=SUCCESS method=loginTestcase.verifymullogin(java.lang.String,java.lang.String)[pri:0, instance:TestCase.loginTestcase@7d898981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestCase.loginTestcase -->
+      <class name="TestCase.CartTestcase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CartTestcase@282cb7c7]" started-at="2024-10-27T23:51:36 IST" name="setup" finished-at="2024-10-27T23:51:42 IST" duration-ms="5210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifychchbtn()[pri:2, instance:TestCase.CartTestcase@282cb7c7]" started-at="2024-10-27T23:51:42 IST" name="verifychchbtn" finished-at="2024-10-27T23:51:42 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifychchbtn -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:TestCase.CartTestcase@282cb7c7]" started-at="2024-10-27T23:51:42 IST" name="close" finished-at="2024-10-27T23:51:42 IST" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifychchbtn status=SUCCESS method=CartTestcase.verifychchbtn()[pri:2, instance:TestCase.CartTestcase@282cb7c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CartTestcase@282cb7c7]" started-at="2024-10-27T23:51:42 IST" name="setup" finished-at="2024-10-27T23:51:48 IST" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytitle()[pri:3, instance:TestCase.CartTestcase@282cb7c7]" started-at="2024-10-27T23:51:48 IST" name="verifytitle" finished-at="2024-10-27T23:51:48 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:TestCase.CartTestcase@282cb7c7]" started-at="2024-10-27T23:51:48 IST" name="close" finished-at="2024-10-27T23:51:48 IST" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytitle status=SUCCESS method=CartTestcase.verifytitle()[pri:3, instance:TestCase.CartTestcase@282cb7c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCase.CartTestcase -->
+      <class name="TestCase.inventoryTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.inventoryTestCase@662706a7]" started-at="2024-10-27T23:51:26 IST" name="setup" finished-at="2024-10-27T23:51:32 IST" duration-ms="5958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytitle()[pri:0, instance:TestCase.inventoryTestCase@662706a7]" started-at="2024-10-27T23:51:32 IST" name="verifytitle" finished-at="2024-10-27T23:51:32 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:TestCase.inventoryTestCase@662706a7]" started-at="2024-10-27T23:51:32 IST" name="closebrowser" finished-at="2024-10-27T23:51:32 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytitle status=SUCCESS method=inventoryTestCase.verifytitle()[pri:0, instance:TestCase.inventoryTestCase@662706a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.inventoryTestCase@662706a7]" started-at="2024-10-27T23:51:32 IST" name="setup" finished-at="2024-10-27T23:51:36 IST" duration-ms="4253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytwitter()[pri:0, instance:TestCase.inventoryTestCase@662706a7]" started-at="2024-10-27T23:51:36 IST" name="verifytwitter" finished-at="2024-10-27T23:51:36 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytwitter -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:TestCase.inventoryTestCase@662706a7]" started-at="2024-10-27T23:51:36 IST" name="closebrowser" finished-at="2024-10-27T23:51:36 IST" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytwitter status=SUCCESS method=inventoryTestCase.verifytwitter()[pri:0, instance:TestCase.inventoryTestCase@662706a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestCase.inventoryTestCase -->
+    </test> <!-- Group_Test -->
+  </suite> <!-- Group_Suite -->
+</testng-results>
